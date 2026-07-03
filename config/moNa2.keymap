@@ -121,10 +121,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &kp N7  &kp N8  &kp N9  &kp FSLH   &kp STAR
-&trans  &trans  &trans  &trans  &trans            &kp DOT  &kp N4  &kp N5  &kp N6  &kp MINUS  &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans    &kp N0   &kp N1  &kp N2  &kp N3  &kp COMMA  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans                             &trans
+&trans  &trans  &trans  &trans  &trans                             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE  &kp KP_ASTERISK
+&trans  &trans  &trans  &trans  &trans            &kp DOT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS   &kp KP_PLUS
+&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_COMMA   &kp KP_EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans                                                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
