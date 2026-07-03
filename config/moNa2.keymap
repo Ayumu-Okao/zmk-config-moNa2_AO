@@ -103,21 +103,21 @@
 &kp Q           &kp W             &kp E         &kp R               &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A           &kp S             &kp D         &kp F               &kp G                       &lt 7 LEFT_BRACKET  &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &kp Z           &kp X             &kp C         &kp V               &lt 7 B      &kp GRAVE      &kp RIGHT_BRACKET   &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 2 LANG1  &lt 3 SPACE    &lt 4 BACKSPACE     &lt 6 ENTER                             &lt 4 SEMICOLON
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 2 LANG1  &lt 3 SPACE    &lt 4 BACKSPACE     &lt 5 ENTER                             &lt 6 SEMICOLON
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
         layer_1_win {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans            &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &kp F12
+&kp Q           &kp W             &kp E         &kp R               &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S             &kp D         &kp F               &kp G                       &lt 7 LEFT_BRACKET  &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z           &kp X             &kp C         &kp V               &lt 7 B      &kp GRAVE      &kp RIGHT_BRACKET   &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 2 LANG1  &lt 3 SPACE    &lt 4 BACKSPACE     &lt 5 ENTER                             &lt 6 SEMICOLON
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
         layer_2 {
@@ -176,7 +176,7 @@
         layer_7_BT {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans            &trans       &to 0         &to 1         &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans            &trans       &to 0         &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
