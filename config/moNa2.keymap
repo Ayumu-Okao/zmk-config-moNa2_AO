@@ -41,35 +41,30 @@
             key-positions = <20 19>;
         };
 
--        MB1 {
-+        mb1 {
-             bindings = <&mkp MB1>;
-             key-positions = <17 18>;
-         };
- 
--        MB2 {
-+        mb2 {
-             bindings = <&mkp MB2>;
-             key-positions = <18 19>;
-         };
- 
--        MB3 {
-+        mb3 {
-             bindings = <&mkp MB3>;
-             key-positions = <17 18 19>;
-         };
- 
--        MB4 {
-+        mb4 {
-             bindings = <&mkp MB4>;
-             key-positions = <6 7>;
-         };
- 
--        MB5 {
-+        mb5 {
-             bindings = <&mkp MB5>;
-             key-positions = <7 8>;
-         };
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <17 18>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <18 19>;
+        };
+
+        mb3 {
+            bindings = <&mkp MB3>;
+            key-positions = <17 18 19>;
+        };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <6 7>;
+        };
+
+        mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
