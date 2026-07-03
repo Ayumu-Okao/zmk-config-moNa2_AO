@@ -30,6 +30,11 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <21 22>;
         };
+
+        Pype {
+            bindings = <&kp PIPE>;
+            key-positions = <15 27>;
+        };
     };
 
     macros {
